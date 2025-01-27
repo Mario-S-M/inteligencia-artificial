@@ -1,5 +1,35 @@
-# 🤖 Repositorio de Tareas de Inteligencia Artificial
-Instituto Tecnológico Nacional de México Campus Morelia | Semestre Enero-Junio 2025
+# 🤖 Repositorio de Tareas de Inteligencia Artificial  
+
+<div align="center">
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/800px-ISO_C%2B%2B_Logo.svg.png" width="60" alt="C++ Logo">　
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1869px-Python-logo-notext.svg.png" width="60" alt="Python Logo">　
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Tensorflow_logo.svg/1200px-Tensorflow_logo.svg.png" width="80" alt="TensorFlow Logo">　
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Jupyter_logo.svg/1200px-Jupyter_logo.svg.png" width="70" alt="Jupyter Logo">　
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Pandas_logo.svg/1200px-Pandas_logo.svg.png" width="80" alt="Pandas Logo">　
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/NumPy_logo_2020.svg/1280px-NumPy_logo_2020.svg.png" width="80" alt="NumPy Logo">
+
+<br>
+<br>
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](https://choosealicense.com/licenses/mit/)
+[![Made with Love](https://img.shields.io/badge/Made%20with-❤-red.svg?style=for-the-badge)](https://github.com/username/IA-Tareas)
+
+</div>
+
+<div align="center">
+
+```txt
+███╗   ███╗ █████╗ ██████╗ ██╗ ██████╗ 
+████╗ ████║██╔══██╗██╔══██╗██║██╔═══██╗
+██╔████╔██║███████║██████╔╝██║██║   ██║
+██║╚██╔╝██║██╔══██║██╔══██╗██║██║   ██║
+██║ ╚═╝ ██║██║  ██║██║  ██║██║╚██████╔╝
+╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝ ╚═════╝ 
+</div><div align="center">
+🌟 "La Inteligencia Artificial es el futuro, y el futuro es ahora" 🌟
+
+</div>
 
 ## 👨‍💻 Información del Estudiante
 
