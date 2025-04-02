@@ -4,3 +4,5 @@ venv/
 *.so
 *.pyc
 __pycache__/
+venv/
+*.so
