@@ -8,7 +8,9 @@ Modelar una red neuronal que pueda identificar emociones a través de los valore
 4. Definir el numero méximo de entradas.
 5. ¿Que valores a la salida de la red se podrían esperar?
 6. ¿Cuales son los valores máximos que puede tener el bias?
+
 ---
+
 ## 1. Tipo de red neuronal y descripción de sus partes
 
 Decidí usar una Red Neuronal Convolucional porque he visto que se usa mucho para cosas como imágenes, y aunque los landmarks no son exactamente una imagen, son como puntos en el espacio que tienen un orden, así que creo que puede funcionar. La CNN tiene varias partes:
@@ -18,20 +20,28 @@ Decidí usar una Red Neuronal Convolucional porque he visto que se usa mucho par
     1. **Primera capa:** Usa filtros para encontrar cosas básicas como distancias entre puntos.
     2. **Segunda capa:** Usa filtros para patrones más complicados, como formas de la cara.
     3. **Activaciones:** Creo que usan ReLU en las capas del medio y Softmax.
+
 ---
+
 ## 2. Patrones a utilizar
 Los patrones son los datos que le doy a la red. Como uso los landmarks de MediaPipe, serían:
 * Las coordenadas x, y, z de los puntos.
 * Pensé que tal vez podría calcular cosas como la distancia entre los ojos mediante las distancias euclidianas.
 * Cada dato tiene que venir con una etiqueta que diga qué emoción es, como felicidad, enojo, estres, etc. Eso lo sacaría de un dataset o grabando caras. 
+
 ---
+
 ## 3. Funciones de activación
 * **ReLU:** La uso en las capas convolucionales y densas porque es simple (si el número es negativo, lo hace 0, y si es positivo, lo deja igual).
 * **Softmax:** Esta va en la salida porque quiero que me dé probabilidades de las posibles emociones. Como que "normaliza" los resultados para que sumen 1 y pueda decir cuál emoción es la más probable.
+
 ---
+
 ## 4. Numero máximo de entradas
 Los landmarks de MediaPipe son 478, y cada uno tiene 3 valores (x, y, z). Entonces, hago la cuenta: 478×3=1434. Ese sería el número máximo de entradas si se usarán todos los puntos que nos da mediapipe, pero si tomaramos solo algunos puntos importantes y de destaque asi como sus distancias no seria necesario usar los 478.
+
 ---
+
 ## 5. Valores esperados de salida
 | # Muestreo  | Felicidad   | Enojo       | Tristeza |
 |-------------|-------------|-------------|----------|
