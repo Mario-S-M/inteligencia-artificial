@@ -45,6 +45,8 @@ En la salida quiero clasificar 3 emociones, así que tengo 3 neuronas. Aquí ser
 * **Tristeza:** 0.3
 
 Lo que nos indica lo sigueinte la probabilidad de que enojo sea mayor es del 60% por lo tanto la emoción que se esta mostrando puede ser enojo. Y la suma de estas no debe exceder el 1, debido a nuestro SoftMax.
+
 ---
+
 ## 6. Valores máximos del bias
 No se cual pudiera ser el valor máximo del bias.
